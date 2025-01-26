@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+:root {
+  --dark-color: #1a1a1a; 
+  --main-color: #213547; 
+  --text-color: #ffffff; 
+  --hover-color: #333333; 
+  --accent-color: #4caf50; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  background: linear-gradient(135deg, #f1f3f5, #84c2ec, #f1f3f5, #84c2ec, #f1f3f5);
+  z-index: -2;
+}
+
+.bg-darkColor {
+  background-color: var(--dark-color);
+}
+
+.bg-mainColor {
+  background-color: var(--main-color);
+}
+.mainColor {
+  background-color: var(--main-color);
+}
+
+.hover-mainColor:hover{
+  background-color: var(--main-color);
+}
+
+.text-white {
+  color: var(--text-color);
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem; 
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.transition-colors {
+  transition: color 0.3s ease-in-out;
+}
+
+.transition-transform {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-transition {
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.navbar-transition.hidden {
+  transform: translateY(-100%);
+}
+
+
+h1,
+h2,
+h3,
+section {
+  scroll-margin-top: 70px; 
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+
+/* Define the cursor animation */
+.cursor {
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    background-color: white;
+  }
+  50% {
+    background-color: transparent;
+  }
+}
