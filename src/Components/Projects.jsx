@@ -14,7 +14,7 @@ const Projects = () => {
       title: "MERN Blog Website",
       description:
         "A modern MERN stack web application featuring dynamic blog pages, a comprehensive dashboard for managing blogs and drafts, support for likes and nested comments, real-time notifications, smooth animations, and much more. Currently live via Netlify as Frontend Server, and Render as Backend Server.",
-      image: "../src/assets/MernBlog.png",
+      image: "../src/assets/MernBlog.jpg",
       github: "https://github.com/puneetraju/mern-blog",
       website: "https://blog-website-pr.netlify.app/",
       techStack: [<FaReact />, <FaNodeJs />, <SiMongodb />, <SiFirebase />, <SiTailwindcss />, <FaAws />],
@@ -23,7 +23,7 @@ const Projects = () => {
       title: "WebTrack",
       description:
         "WebTrack is a productivity-focused Chrome extension that lets you create, search, edit, and delete tasks linked to specific web pages. Each task is automatically tagged with the URL and a timestamp to help you track activities efficiently. Manage all your tasks seamlessly from the options page and stay organized while browsing!",
-      image: "../src/assets/WebTracker.png",
+      image: "../src/assets/WebTracker.jpg",
       github: "https://github.com/puneetraju/Web-Track",
       website: "",
       techStack: [<FaHtml5 />, <FaChrome />, <IoLogoJavascript />, <BsFiletypeJson />, <FaCss3Alt />],
@@ -32,7 +32,7 @@ const Projects = () => {
       title: "Exercise App",
       description:
         "Exercise App is a sleek and intuitive fitness app built using Jetpack Compose. The app features a crisp and modern UI for exercise routines, where each exercise is displayed with visually appealing images. With a focus on simplicity and user experience, Exercise App ensures your fitness journey stays on track with style!",
-      image: "../src/assets/ExerciseApp.png",
+      image: "../src/assets/ExerciseApp.jpg",
       github: "https://github.com/puneetraju/Exercise-Android-App",
       website: "",
       techStack: [<SiJetpackcompose />, <SiAndroidstudio />, <DiAndroid />, <TbBrandKotlin />],
