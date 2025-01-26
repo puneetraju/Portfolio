@@ -16,7 +16,7 @@ const Projects = () => {
         "A modern MERN stack web application featuring dynamic blog pages, a comprehensive dashboard for managing blogs and drafts, support for likes and nested comments, real-time notifications, smooth animations, and much more. Currently live via Netlify as Frontend Server, and Render as Backend Server.",
       image: "../src/assets/MernBlog.png",
       github: "https://github.com/puneetraju/mern-blog",
-      website: "https://mern-blog.example.com",
+      website: "https://blog-website-pr.netlify.app/",
       techStack: [<FaReact />, <FaNodeJs />, <SiMongodb />, <SiFirebase />, <SiTailwindcss />, <FaAws />],
     },
     {
