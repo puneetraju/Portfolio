@@ -1,4 +1,4 @@
-import Navbar from './src/Components/Navbar';
+import React from 'react';
 import Projects from './src/Components/Projects';
 import Contact from './src/Components/Contact';
 import Skills from './src/Components/Skills';
@@ -23,12 +23,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
